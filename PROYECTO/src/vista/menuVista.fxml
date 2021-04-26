@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.MenuVistaController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu fx:id="txtDispo" mnemonicParsing="false" text="Dispositivos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Gestionar Dispositivos" />
+            </items>
+          </Menu>
+          <Menu fx:id="txtacciones" mnemonicParsing="false" text="Acciones">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Acciones con Dispositivos" />
+                  <MenuItem mnemonicParsing="false" text="Acciones Externas al Dispositivo" />
+            </items>
+          </Menu>
+          <Menu fx:id="txtReportes" mnemonicParsing="false" text="Reportes">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Bitacora" />
+                  <MenuItem mnemonicParsing="false" text="Dispositivos asociados a cada usuario" />
+                  <MenuItem mnemonicParsing="false" text="Bitacora de ingreseo al programa" />
+                  <MenuItem mnemonicParsing="false" text="Reporte de archivos almacenados en dispositivo" />
+            </items>
+          </Menu>
+            <Menu fx:id="txtUsuarios" mnemonicParsing="false" text="Usuarios">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Gestionar Usuarios" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
